@@ -110,7 +110,8 @@ def train_model(model, train_loader, num_epochs=3):
 
 
 ### New Sample Data Prediction
-![Uploading image.png…]()
+<img width="575" height="582" alt="image" src="https://github.com/user-attachments/assets/50f24de9-1683-42d3-b4ae-56d043030147" />
+
 
 
 
