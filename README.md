@@ -37,8 +37,8 @@ Test the model on unseen data, compute accuracy, and analyze results using a con
 Save the trained model, visualize predictions, and integrate it into an application if needed.
 
 ## PROGRAM
-#### Name: KAMESH R R
-#### Register Number: 212223230095
+#### Name: KAVIYA SNEKA M
+#### Register Number: 212223040091
 
 ```python
 class CNNClassifier(nn.Module):
@@ -84,8 +84,8 @@ def train_model(model, train_loader, num_epochs=3):
             optimizer.step()
             running_loss += loss.item()
 
-        print('Name: KAMESH R R')
-        print('Register Number: 212223230095')
+        print('Name: KAVIYA SNEKA M')
+        print('Register Number: 212223040091')
         print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(train_loader):.4f}')
 
 ```
@@ -93,23 +93,25 @@ def train_model(model, train_loader, num_epochs=3):
 ## OUTPUT
 ### Training Loss per Epoch
 
-![WhatsApp Image 2025-09-30 at 10 30 30_a98db777](https://github.com/user-attachments/assets/083ec1a3-6c7e-4eb8-899e-ebb7e9dcb7cc)
+<img width="527" height="216" alt="image" src="https://github.com/user-attachments/assets/4c3cf795-076b-409e-b215-44725a3effba" />
+
 
 
 ### Confusion Matrix
+<img width="1009" height="695" alt="image" src="https://github.com/user-attachments/assets/ddc8a2bd-8edb-4041-87d7-4c10c41f151a" />
 
-![WhatsApp Image 2025-09-30 at 10 31 01_b7df97ff](https://github.com/user-attachments/assets/aef11c6a-53ff-4f9b-9265-eb388ac493c1)
 
 
 ### Classification Report
 
-![WhatsApp Image 2025-09-30 at 11 17 08_8665fb68](https://github.com/user-attachments/assets/05b9e1bc-5940-4357-bd88-430b7aa47aee)
+<img width="625" height="451" alt="image" src="https://github.com/user-attachments/assets/b9e66d2d-1da7-4e4b-b4d3-f3a5b81d9a51" />
+
 
 
 
 ### New Sample Data Prediction
+![Uploading image.png…]()
 
-![WhatsApp Image 2025-09-30 at 10 31 27_c045e485](https://github.com/user-attachments/assets/374d9e0d-0dfc-409f-9a46-656724e2d813)
 
 
 ## RESULT
